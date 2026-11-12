@@ -1,6 +1,6 @@
 def is_passing(grade):
     """True if the grade is 5 or more"""
-    return grade > 5
+    return grade >= 5
 
 
 def is_valid_password(password):
@@ -10,4 +10,4 @@ def is_valid_password(password):
 
 def clamp(x, low, high):
     """x, limited to the range from low to high"""
-    return max(low, min(x, low))
+    return max(low, min(x, high))
